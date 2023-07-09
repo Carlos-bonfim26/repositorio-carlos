@@ -1,0 +1,19 @@
+<div class="container-home">
+      <div class="text-home">
+          <h2 class="title">Bem vindo a <span class="span-home">Polypus</span><span id="hs"> HS</span></h2>
+          <p class="p-home"> Somos uma consultoria de T.I, focada em potencializar pequenas e médias empresas. </p>
+      </div>
+
+      <div class="img-header" >
+  
+    <div class="carousel-inner">
+      
+      
+    </div>
+    <div class="container-home">
+      <div class="text-home">
+          <h2 class="title">Bem vindo a <span class="span-home">Polypus</span><span id="hs"> HS</span></h2>
+          <p class="p-home"> Somos uma consultoria de T.I, focada em potencializar pequenas e médias empresas. </p>
+      </div>
+    
+  </div>

@@ -42,18 +42,33 @@
           </nav>
          
  <!-- carrosel de imagens-->
- <div class="img-header" >
-  
-    <div class="carousel-inner">
-      
-      
+
+ </div>
+ <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/Microcontroladores.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="container-home">
-      <div class="text-home">
-          <h2 class="title">Bem vindo a <span class="span-home">Polypus</span><span id="hs"> HS</span></h2>
-          <p> Somos uma consultoria de T.I, focada em potencializar pequenas e médias empresas. </p>
-      </div>
-    
+    <div class="carousel-item">
+      <img src="img/hardwarebanner.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/digital.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="container-home">
+  <div class="text-home">
+      <h2 class="title">Bem vindo a <span class="span-home">Polypus</span><span id="hs"> HS</span></h2>
+      <p class="p-home"> Somos uma consultoria de T.I, focada em potencializar pequenas e médias empresas. </p>
   </div>
     </header>
  <section class="container-intro">
@@ -102,141 +117,154 @@
     </div>
   </section>
 <section class="container-setores">
-  <h2 class="title-responsivo"><span style="color: #052896;">Setores</span> e Serviços</h2>
+  <h2 class="title-responsivo title-setor">Setores e Serviços</h2>
   <div class="setores">
-    
-    <div class="hard-setor"></div>
-    <div class="soft-setor"></div>
-    <div class="redes-setor"></div>
+    <div class="setores-two">
+      <h2 class="h2-setores">Hardware</h2>
+      <div class="hard-setor"></div>
+    </div>
+    <div class="setores-two">
+      <h2 class="h2-setores">Software</h2>
+      <div class="soft-setor"></div>
+    </div>
+    <div class="setores-two">
+      <h2 class="h2-setores">Redes</h2>
+      <div class="redes-setor"></div>
+    </div>
   </div>
 </section>
   <section class="container-form-big" id="form">
-   
-      <div class="form">
-        <form action="#">
-            <div class="cadastro">
-                <h1>Agende aqui</h1>
-            <img src="img/Imagem1.png" alt="logo da polypus" class="logo-form">
-            </div>
-            <div class="input-group">
-                <div class="input-box">
-                    <label for="empresa">Nome da Empresa</label>
-                    <input
-                        type="text"
-                        id="empresa"
-                        placeholder="Digite aqui o nome"
-                        class="input-text"
-                        required
-                    />
-                </div>
-                <div class="input-box">
-                    <label for="email">E-mail</label>
-                    <input
-                        type="email"
-                        id="email"
-                        placeholder="Digite aqui o email"
-                        class="input-text"
-                        required
-                    />
-                </div>
-                <div class="input-box">
-                    <label for="endereco">Endereço</label>
-                    <input
-                        type="text"
-                        id="endereco"
-                        placeholder="Digite aqui o Endereço"
-                        class="input-text"
-                        required
-                    />
-                </div>
-                <div class="input-box">
-                    <label for="tel">Telefone de contato</label>
-                    <input
-                        type="tel"
-                        id="tel"
-                        placeholder="Digite aqui seu telefone"
-                        class="input-text"
-                        required
-                    />
-                </div>
-            </div>
-            <div id="localiza-group">
-                <div class="localiza">
-                    <p class="p-form">Localização da sua empresa</p>
-                </div>
-              
-                <div class="localiza">
-                    <label for="outros" >Escolha seu Estado</label>
-                    <select name="localiza" id="outros" required>
-                      <option value="outros"  disabled selected>Escolha seu Estado</option>
-                      <option value="sp">São Paulo</option>
-                      <option value="rj">Rio de Janeiro</option>
-                      <option value="mg">Minas Gerais</option>
-                      <option value="es">Espirito Santo</option>
-                      <option value="rs">Rio Grande do Sul</option>
-                      <option value="pr">Paraná</option>
-                      <option value="sc">Santa Catarina</option>
-                      <option value="go">Goías</option>
-                      <option value="mt">Mato Grosso</option>
-                      <option value="ms">Mato Grosso do Sul</option>
-                      <option value="df">Distrito Federal</option>
-                      <option value="ba">Bahia</option>
-                      <option value="se">Sergipe</option>
-                      <option value="pe">Pernanbuco</option>
-                      <option value="ce">Ceará</option>
-                      <option value="al">Alagoas</option>
-                      <option value="rn">Rio Grande do Norte</option>
-                      <option value="pi">Píaui</option>
-                      <option value="ma">Maranhão</option>
-                      <option value="pb">Paraíba</option>
-                      <option value="to">Tocantis</option>
-                      <option value="ro">Rondonia</option>
-                      <option value="rr">Roraima</option>
-                      <option value="ac">Acre</option>
-                      <option value="am">Amazonas</option>
-                      <option value="ap">Amapá</option>
-                      <option value="pa">Pará</option>
-                    </select>
-                </div>
-            </div>
-            <div class="setor-group">
-                <p class="p-form">Necessita dos serviços de:</p>
-                <div class="setor">
-                    <label for="soft">Software</label>
-                    <input type="checkbox" name="setor" id="soft" />
-                </div>
-                <div class="setor">
-                    <label for="hard">Hardware</label>
-                    <input type="checkbox" name="setor" id="hard" />
-                </div>
-                <div class="setor">
-                    <label for="redes">Redes</label>
-                    <input type="checkbox" name="setor" id="redes" />
-                </div>
-            </div>
-            <div class="reuniao-group">
-                <p class="p-form">Onde deseja fazer a reunião</p>
-
-                <div class="reuniao" >
-                    <label for="Presencial" >Reunião Presencial</label>
-                    <input
-                        type="radio"
-                        id="Presencial"
-                        name="reuniao"
-                    />
-                </div>
-                <div class="reuniao">
-                    <label for="on">Reunião Online</label>
-                    <input type="radio" id="on" name="reuniao" />
-                </div>
-            </div>
-
-            <div class="container-button-form">
-                <button class="button-form">Enviar</button>
-            </div>
-        </form>
+  <div class="text-form">
+    <div class="text-form-two">
+      <h2 class="title-form">Agende Conosco</h2>
+      <p class="text-form-p">Preencha o formulário ao lado para sabermos de quais serviços necessita, para que possamos agendar reuniões e tratar de questões de orçamento, datas de instalação, entre outros requisitos.</p>
     </div>
-    </div>
+  </div>
+      <div class="form-two">
+        <div class="form">
+          <form action="#">
+              <div class="cadastro">
+                  <h1>Agende aqui</h1>
+              <img src="img/Imagem1.png" alt="logo da polypus" class="logo-form">
+              </div>
+              <div class="input-group">
+                  <div class="input-box">
+                      <label for="empresa">Nome da Empresa</label>
+                      <input
+                          type="text"
+                          id="empresa"
+                          placeholder="Digite aqui o nome"
+                          class="input-text"
+                          required
+                      />
+                  </div>
+                  <div class="input-box">
+                      <label for="email">E-mail</label>
+                      <input
+                          type="email"
+                          id="email"
+                          placeholder="Digite aqui o email"
+                          class="input-text"
+                          required
+                      />
+                  </div>
+                  <div class="input-box">
+                      <label for="endereco">Endereço</label>
+                      <input
+                          type="text"
+                          id="endereco"
+                          placeholder="Digite aqui o Endereço"
+                          class="input-text"
+                          required
+                      />
+                  </div>
+                  <div class="input-box">
+                      <label for="tel">Telefone de contato</label>
+                      <input
+                          type="tel"
+                          id="tel"
+                          placeholder="Digite aqui seu telefone"
+                          class="input-text"
+                          required
+                      />
+                  </div>
+              </div>
+              <div id="localiza-group">
+                  <div class="localiza">
+                      <p class="p-form">Localização da sua empresa</p>
+                  </div>
+        
+                  <div class="localiza">
+                      <label for="outros" >Escolha seu Estado</label>
+                      <select name="localiza" id="outros" required>
+                        <option value="outros"  disabled selected>Escolha seu Estado</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="es">Espirito Santo</option>
+                        <option value="rs">Rio Grande do Sul</option>
+                        <option value="pr">Paraná</option>
+                        <option value="sc">Santa Catarina</option>
+                        <option value="go">Goías</option>
+                        <option value="mt">Mato Grosso</option>
+                        <option value="ms">Mato Grosso do Sul</option>
+                        <option value="df">Distrito Federal</option>
+                        <option value="ba">Bahia</option>
+                        <option value="se">Sergipe</option>
+                        <option value="pe">Pernanbuco</option>
+                        <option value="ce">Ceará</option>
+                        <option value="al">Alagoas</option>
+                        <option value="rn">Rio Grande do Norte</option>
+                        <option value="pi">Píaui</option>
+                        <option value="ma">Maranhão</option>
+                        <option value="pb">Paraíba</option>
+                        <option value="to">Tocantis</option>
+                        <option value="ro">Rondonia</option>
+                        <option value="rr">Roraima</option>
+                        <option value="ac">Acre</option>
+                        <option value="am">Amazonas</option>
+                        <option value="ap">Amapá</option>
+                        <option value="pa">Pará</option>
+                      </select>
+                  </div>
+              </div>
+              <div class="setor-group">
+                  <p class="p-form">Necessita dos serviços de:</p>
+                  <div class="setor">
+                      <label for="soft">Software</label>
+                      <input type="checkbox" name="setor" id="soft" />
+                  </div>
+                  <div class="setor">
+                      <label for="hard">Hardware</label>
+                      <input type="checkbox" name="setor" id="hard" />
+                  </div>
+                  <div class="setor">
+                      <label for="redes">Redes</label>
+                      <input type="checkbox" name="setor" id="redes" />
+                  </div>
+              </div>
+              <div class="reuniao-group">
+                  <p class="p-form">Onde deseja fazer a reunião</p>
+                  <div class="reuniao" >
+                      <label for="Presencial" >Reunião Presencial</label>
+                      <input
+                          type="radio"
+                          id="Presencial"
+                          name="reuniao"
+                      />
+                  </div>
+                  <div class="reuniao">
+                      <label for="on">Reunião Online</label>
+                      <input type="radio" id="on" name="reuniao" />
+                  </div>
+              </div>
+              <div class="container-button-form">
+                  <button class="button-form">Enviar</button>
+              </div>
+          </form>
+            </div>
+            </div>
+      </div>
   </section>
  
 
