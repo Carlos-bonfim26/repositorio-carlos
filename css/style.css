@@ -37,6 +37,7 @@ nav{
     color: white;
     padding: 1.5rem;
     font-size: 25px;
+    font-weight: 700;
     margin: 14px;
     display: flex;
     flex-wrap: nowrap;
@@ -44,6 +45,9 @@ nav{
 }
 .nav-link:hover{
     color: #FEA802;
+    border-bottom: #FEA802 0.3em solid;
+    transition: 1s;
+    font-weight: 900;
    
 }
 .navbar-collapse{
@@ -315,23 +319,23 @@ padding: 0;
 margin: 0;
 }
 .text-form{
-width: 50vw;
+width: 50%;
 background-color: #052896;
 color: white;
-height: 75vh;
+height: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
 
 }
 .form-two{
-    width: 50vw;
-    height: 75vh;
+    width: 50%;
+    height: 100%;
    display: flex;
    justify-content: center;
 }
 .text-form-two{
-    width: 30vw;
+    width: 80%;
     font-size: 30px;
 }
 .title-form{
@@ -450,17 +454,22 @@ align-items: center;
 
 }
 .title-localiza{
-    display: flex;
-  align-items: center;
+
    font-size: 40px;
    color: #FEA802;
   font-weight: 800;
-  text-align: center;
+
     margin-bottom: 20px;
     margin-top: 15px;
 }
 .setor, .localiza, .reuniao, .reuniao-group, .setor-group{
     margin-top: 10px;
+}
+.localiza-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 /*footer*/
 .footer, footer{
@@ -836,6 +845,9 @@ content: url(../img/iconesoft.png);
     flex-wrap: wrap;
     margin-left: -220px;
  }
+ 
+
+
  .container-form-big, .text-form{
     height: 110vh;
  }
@@ -1032,9 +1044,14 @@ text-align: center;
     width: 75vw;
     text-align: center;
 }
+.container-form-big{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 @media (max-width:300px){
-    .container-img-hist, .text-form  {
+    .container-img-hist{
         display: none;
     }
     .title-hist{
@@ -1068,6 +1085,6 @@ text-align: center;
     }
     .title-footer{
         font-size: 2.5rem;
-        margin-right: 10rem;
+    
     }
 }
